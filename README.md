@@ -5,17 +5,17 @@ Linux date commands with the specialized outputs.
 
 ### Today tricks
 #### Today's Date and Time
-```date```<br>
+```date```<p>
 Output: **Wed Jun 24 14:02:35 EDT 2020**
 
 #### Today's Date at midnight
-```date -d "2020-07-21 +1day -1sec"```<br>
+```date -d "2020-07-21 +1day -1sec"```<p>
 Output: **Wed Jun 24 23:59:59 EDT 2020**
 
 
 ### This Month - First Day tricks
 #### 1st Day of month at midnight (1st second)
-```date -d "2020-07-01 00:00"```<br>
+```date -d "2020-07-01 00:00"```<p>
 Output: **Wed Jul  1 00:00:00 EDT 2020**
 
 #### 1st Day of month at last second of day
