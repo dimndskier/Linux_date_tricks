@@ -4,25 +4,25 @@ Linux date commands with the specialized outputs.
 *For a frame of reference, imagine that today is July 21st, 2020.  Results will be different for you, because it is no longer 21 July 2020.*
 
 ### Today tricks
-#### Today's Date and Time
+#### Today's Date and Time<br>
 ```date```<br>
 Output: **Tue Jul 21 14:02:35 EDT 2020**
-#### Today's Date at midnight
+#### Today's Date at midnight<br>
 ```date -d "2020-07-21 +1day -1sec"```<br>
 Output: **Tue Jul 21 23:59:59 EDT 2020**
 
 
 ### This Month
-#### 1st Day of month at midnight (1st second)
+#### 1st Day of month at midnight (1st second)<br>
 ```date -d "2020-07-01 00:00"```<br>
 Output: **Wed Jul  1 00:00:00 EDT 2020**
-#### 1st Day of month at last second of day
+#### 1st Day of month at last second of day<br>
 ```date -d "2020-07-01 23:59:59"```<br>
 Output: **Wed Jul  1 23:59:59 EDT 2020**
-#### Last Day and Minute:Second of this Month
+#### Last Day and Minute:Second of this Month<br>
 ```date -d "$( date +%Y-%m-01 ) +1month -1second"```<br>
 Output: **Fri Jul 31 23:59:59 EDT 2020**
-#### Last Day and Minute:00s of this Month
+#### Last Day and Minute:00s of this Month<br>
 ```date -d "$( date +%Y-%m-01 ) +1month -1minute"```<br>
 Output: **Fri Jul 31 23:59:00 EDT 2020**
 
