@@ -8,7 +8,10 @@ Linux date commands with the specialized outputs.
 ```date```<br>
 Output: **Tue Jul 21 14:02:35 EDT 2020**
 #### Today's Date at midnight
-```date -d "2020-07-21 +1day -1sec"```<br>
+```date -d "$( date +%Y-%m-%d )"```
+Output: **Tue Jul 21 00:00:00 EDT 2020**
+#### Today's Date at 23:59:59
+```date -d "$( date +%Y-%m-%d ) +1day -1sec"```<br>
 Output: **Tue Jul 21 23:59:59 EDT 2020**
 
 
