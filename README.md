@@ -3,13 +3,13 @@ Linux date commands with the specialized outputs.
 
 *For a frame of reference, imagine that today is July 21st, 2020.  Results will be different for you, because it is no longer 21 July 2020.*
 
-<p>### Today tricks
+<p>### Today tricks</p>
 #### Today's Date and Time
 ```date```<br>
 Output: **Tue Jul 21 14:02:35 EDT 2020**
 #### Today's Date at midnight
 ```date -d "2020-07-21 +1day -1sec"```<br>
-Output: **Tue Jul 21 23:59:59 EDT 2020**</p>
+Output: **Tue Jul 21 23:59:59 EDT 2020**
 
 
 ### This Month
