@@ -5,7 +5,7 @@ Linux date commands with the specialized outputs.
 
 ### Today tricks
 #### Today's Date and Time
-```date```<br>
+```date```
 Output: **Tue Jul 21 14:02:35 EDT 2020**
 #### Today's Date at midnight
 ```date -d "$( date +%Y-%m-%d )"```
