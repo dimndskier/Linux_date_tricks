@@ -59,3 +59,4 @@ Output: **Sat Aug  1 23:59:59 EDT 2020**
 Output: **Mon Aug 31 00:00:00 EDT 2020**
 #### Last Day of Next Month at 23:59:59
 ```date -d "$( date +%Y-%m-01 ) +2month -1sec"```<br>
+Output: Mon Aug 31 23:59:59 EDT 2020
